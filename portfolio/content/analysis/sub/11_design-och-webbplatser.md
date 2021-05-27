@@ -9,9 +9,9 @@ Template: analys
 
 Uppdraget går ut på att göra en analys inom design av webbplatser: bilder och laddningstider dvs. att mäta hur sidan laddas och om den innehåller några saker som kan förbättras med tanke på laddningstid och användbarhet.
 
-För varje webbplats (både Mobile och Desktop):
-- tre sidor som skall väljas ut för mätning med Google Pagespeed
-- för varje sida mätningen skall upprepas tre gånger och snittvärdet redovisas
+För varje webbplats (både Mobile och Desktop) analyseras:
+- tre sidor med Google Pagespeed
+- för varje sida mätningen upprepas tre gånger och snittvärdet redovisas
 
 Den analyserade sidan hittas under [Kmom10 home](http://www.student.bth.se/~necu20/dbwebb-kurser/design/me/kmom10/)  
 ![Kmom10 home](%assets_url%/img/Design-kmom10.png "Kmom10 home"){.image}
@@ -25,9 +25,7 @@ Den analyserade sidan hittas under [Kmom10 home](http://www.student.bth.se/~necu
 
 ### Resultat
 
-Samtliga [mätresultat](%assets_url%/Sitespeed-analysis-kmom10.ods) delvis rådata
-men också snittade värden grupperade efter site och undersidor finns som ett ods-document.
-
+Samtliga [mätresultat](%assets_url%/Sitespeed-analysis-kmom10.ods) delvis rådata men också snittade värden grupperade efter sidor och enhet finns som ett ods-document.
 
 
 Resultat från både DevTools och PageSpeed Insights är i princip samstämmiga och över alla undersidor dvs. de indikerar väldigt höga värden 96-100% och 04 - 0.5 sekunder laddningstid. Även mängd data som överförs är rätt så låg, 03 - 2MiB viket betyder att sidorna upplevs som snabba även om nätverkshastighet inte är hög.
