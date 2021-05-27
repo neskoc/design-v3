@@ -111,3 +111,10 @@ Så här i efterhand tycker jag att kursmaterialet var bra och jag har sparat en
 Genomgångarna var på en lagom hög nivå tycker jag medan föreläsningarna tyckte jag var ganska långsamma och tog upp för lite saker (jag brukade spela upp de på 1,3-1,4 hastighet).
 
 Betyget för kursen är en 8 tycker jag och även om det inte är högre betyg är jag väldigt nöjd med kursen (jag uppskattar den mycket mer nu än i december).
+
+### Avslutande kommentar
+
+Det blev lite förvirrat hur man skall hantera repositori.
+Jag har kvar gamla portfolio och sedan har jag kmom10 och man skulle ha följt instruktionerna skulle det bli omöjligt att få båda i den gamla repon.  
+Därför har jag skapat en ny på me-nivån med portfolio och kmom10 under den.  
+Denna har nu fått version v.10.1.0 medan ursprungsrepo fanns under portfolio.
