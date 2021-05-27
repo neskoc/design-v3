@@ -1,0 +1,95 @@
+.container.report {
+    display: grid;
+    gap: 1em 1em;
+    padding: 0 0.5em;
+
+    h1,
+    h2 {
+        grid-column: span 2;
+        justify-self: center;
+    }
+}
+
+.year-grid-box,
+.work-grid-box {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    margin: 1em;
+    border: 1px solid $border-line-color;
+    border-radius: 10px;
+    background-color: $grid-box-background;
+
+    &.project {
+        grid-column: span 3;
+    }
+}
+
+.work-grid-box.flex-columns,
+.flex-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-columns .flex-column:nth-child(even) {
+    padding: 0 1em;
+}
+
+.work-grid-box.grid-image {
+    border: 0;
+    background: none;
+    padding: 0;
+    align-self: center;
+}
+
+.grid-image {
+    border-radius: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.flex-columns > .flex-column {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.work-grid-box.flex-columns .grid-picture {
+    margin: 1em;
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+.year-grid-title {
+    margin-top: 2.5em;
+    grid-column: span 2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    picture {
+        margin-bottom: 0.5em;
+        margin-right: 1em;
+    }
+}
+
+.color {
+    display: inline;
+    color: #444;
+    width: 40px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #000;
+}

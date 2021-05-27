@@ -1,0 +1,37 @@
+// variables.scss
+
+@import 'color-palett';
+@import 'common-variables';
+
+$standard-font-family: 'OpenSans' !default;
+$header-font-family: 'Philosopher', sans-serif !default;
+
+$base-color: $color-primary-0 !default; // blue
+$main-container-background-color: #eee;
+
+$header-color: #444 !default;
+$header-background: rgba(165, 179, 245, 0.7);
+
+$nav-color: $color-primary-3;
+$title-color: #fff;
+$flash-img-background: rgba(122, 186, 200, 0.1);
+$border-line-color: $color-primary-1;
+$body-color: #444;
+
+$container-background: $color-primary-1;
+
+$grid-box-background: rgba(255, 255, 255, 0.5);
+
+$a-color: $nav-color;
+$a-hover-color: $base-color;
+
+$byline-background: $rgba-secondary-2-opacity;
+$byline-border: $rgba-secondary-2-3;
+$byline-a-color: $nav-color;
+
+$footer-color: rgb(4, 60, 124);
+$footer-background: $header-background;
+$footer-a-color: $title-color;
+$footer-a-hover-color: $body-color;
+
+@import 'common-variables-footer';

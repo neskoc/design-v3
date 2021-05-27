@@ -1,0 +1,36 @@
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    background-color: $footer-background;
+    color: $footer-color;
+    padding-bottom: 1em;
+
+    a {
+        color: $footer-a-color;
+    }
+
+    a:hover {
+        color: $footer-a-hover-color;
+    }
+
+    p {
+        margin: 0;
+        padding: 3em 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        /* float: right; */
+        text-align: center;
+        padding: 1em 0;
+        font-size: 2rem;
+    }
+
+    .center {
+        text-align: center;
+    }
+}

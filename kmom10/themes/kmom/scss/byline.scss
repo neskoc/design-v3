@@ -1,0 +1,37 @@
+// byline
+
+.byline.container {
+    display: flex;
+    padding: 0.5em;
+    margin: 0 1em 1em;
+    border-radius: 10px;
+    border: 1px solid $byline-border;
+    background-color: $byline-background;
+    clear: both;
+
+    picture {
+        min-width: 60px;
+    }
+
+    img {
+        padding: 0.1em;
+        border-radius: 7px;
+    }
+
+    a {
+        color: $byline-a-color;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: underline;
+    }
+
+    .byline-text {
+        margin: 0 0.5em;
+    }
+}

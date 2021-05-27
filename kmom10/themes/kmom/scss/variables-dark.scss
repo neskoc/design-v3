@@ -1,0 +1,39 @@
+// variables.scss
+
+@import 'color-palett_2';
+@import 'common-variables';
+
+$standard-font-family: 'Dekko' !default;
+$header-font-family: 'Permanent Marker',
+sans-serif !default;
+
+$base-color: #00f !default; // blue
+
+$nav-color: #46bda8;
+$title-color: #426cb3;
+
+$header-color: #42b37f;
+$header-background: rgba(0, 0, 0, 0.7);
+
+$flash-img-background: rgba(122, 186, 200, 0.1);
+$border-line-color: $nav-color;
+$body-color: #46bda8;
+
+$container-background: rgba(0, 0, 0, 0.3);
+
+$h1-font-size: 2.5em;
+
+$grid-box-background: rgba(0, 0, 0, 0.5);
+
+$a-color: #2eae9b;
+$a-hover-color: $header-color;
+$byline-border: $rgba-secondary-2-3;
+$byline-a-color: #4692db;
+
+//$footer-background: $color-primary-4;
+$footer-background: #013040;
+$footer-color: #000;
+$footer-a-color: #4692db;
+$footer-a-hover-color: $header-color;
+
+@import 'common-variables-footer';

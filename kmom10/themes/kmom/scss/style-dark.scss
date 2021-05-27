@@ -1,0 +1,124 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'typography';
+@import 'common';
+@import 'header-dark';
+@import 'byline';
+@import 'footer';
+@import 'report';
+@import 'kmoms';
+@import 'responsive';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+/*** BASIC LAYOUT ***/
+
+html {
+    /*    background-image: url('../../../assets/img/artificial_intelligence2.png');*/
+    background-color: rgba(0, 0, 0, 1);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    flex: 0.6 0 0;
+    padding: 4em 0 0;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.flash-img {
+    filter: brightness(30%);
+}
+
+.year-grid-box,
+.work-grid-box {
+    border: 0;
+}
+
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+
+    .kmoms {
+        background-color: $container-background;
+    }
+
+    .year-grid-box.about-left {
+        border-right: 1px solid $border-line-color;
+        border-radius: 0;
+    }
+
+    .work-grid-box {
+        border-top: 1px solid $border-line-color;
+        border-radius: 0;
+
+        &.no-border {
+            border: 0;
+        }
+
+        &.about-left {
+            border-top: 0;
+            border-right: 1px solid $border-line-color;
+        }
+
+        &.about-right {
+            border-top: 0;
+        }
+    }
+}
+
+.widescreen .container {
+    max-width: $widescreen-max-width;
+}
+
+
+@media (max-width: 915px) {
+    .container .year-grid-box.about-left,
+    .container .work-grid-box.about-left {
+        border: 0;
+    }
+}

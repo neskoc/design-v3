@@ -1,0 +1,6 @@
+Machine Learning for classification of research funding submissions
+
+This paper presents the result of an experimental study, which is a part of the university course, that investigates whether machine learning (ML) technology can be useful for the text topic classification of submissions’ abstracts for research funding classified according to United Nation’s 17 Global Goals.
+Labeled data is supplied by The Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning (Formas) and Sweden’s innovation agency (Vinnova) while complete though unlabelled data set can be downloaded from the Swedish national database (SweCRIS). Only texts in Swedish language were analysed.
+The result is showing that machine learning could be useful for the classification of the submissions but it is necessary to collect much more reliable labeled data.
+
