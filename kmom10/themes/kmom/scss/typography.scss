@@ -7,13 +7,25 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'Merriweather';
+    src: url('../../shared/fonts/google/MerriweatherSans-VariableFont_wght.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../../shared/fonts/google/SourceSansPro-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dekko';
     src: url('../../shared/fonts/google/OpenSans-Regular.ttf');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Philosopher';
+    font-family: 'Permanent Marker';
     src: url('../../shared/fonts/google/Philosopher-Regular.ttf');
     font-display: swap;
 }
